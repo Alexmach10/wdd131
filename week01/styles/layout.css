@@ -1,0 +1,64 @@
+.parent {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr auto/auto;
+}
+
+header {
+    padding: 2rem;
+    grid-column: 1/5;
+    background-color: powderblue;
+}
+
+nav {
+    display: flex;
+    flex-direction:column;
+    background-color: cornflowerblue;
+}
+
+h2 {
+    text-align: center;
+    color: azure;
+}
+
+h4 h3 {
+    text-align: justify;
+}
+
+.home {
+    grid-column: 1/2;
+    background-color: ;
+}
+
+.projects {
+    grid-column: 2/3;
+}
+
+.sevices {
+    grid-column: 3/4;
+}
+
+.contact_us {
+    grid-column: 4/5;
+}
+
+.main_content {
+    grid-column: 1/4;
+    padding: 1rem;
+    background-color: powderblue;
+}
+
+.aside_content {
+    grid-column: 4/5;
+    padding: 1rem;
+    background-color: azure;
+}
+
+footer {
+    grid-column: 1/5;
+    background-color: cornflowerblue;
+    padding-bottom: 3rem;
+}
+
+footer h4 {
+    text-align: center;
+}
