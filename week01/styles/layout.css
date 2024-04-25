@@ -11,7 +11,7 @@ header {
 
 nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: cornflowerblue;
 }
 
@@ -25,19 +25,19 @@ h4 h3 {
 }
 
 .home {
-    grid-column: 1/2;
+    flex: auto;
 }
 
 .projects {
-    grid-column: 2/3;
+    flex: auto;
 }
 
-.sevices {
-    grid-column: 3/4;
+.serv {
+    flex: auto;
 }
 
 .contact_us {
-    grid-column: 4/5;
+    flex: auto;
 }
 
 .main_content {
