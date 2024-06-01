@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI to Improve Your Business</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals - Alexis Daniel Machuca Castillo. AI to Improve Your Business">
+    <meta name="author" content="Alexis Machuca">
+    <link rel="stylesheet" href="style/site.css">
+    <link rel="preconnect" href="https://via.placeholder.com">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preload" href="https://via.placeholder.com/600x400" as="image" type="image/jpeg">
+    <link rel="preload" href="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?fit=crop&w=600&h=400&q=80"
+        as="image" type="image/jpeg">
+    <link rel="preload" href="https://images.unsplash.com/photo-1522071820081-009f0129c71c?fit=crop&w=600&h=400&q=80"
+        as="image" type="image/jpeg">
+    <link rel="preload" href="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?fit=crop&w=600&h=400&q=80"
+        as="image" type="image/jpeg">
+    <script defer src="scripts/site.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>AI to Improve Your Business</h1>
+        <button id="menu-button" class="menu-button" onclick="toggleMenu()"></button>
+        <nav id="nav-menu">
+            <button onclick="showSection('home')">Home</button>
+            <button onclick="showSection('tools')">Most Common AI Tools</button>
+            <button onclick="showSection('news')">AI News</button>
+            <button onclick="showSection('devices')">AI Devices</button>
+        </nav>
+    </header>
+    <main>
+        <section id="home-section" class="content-section">
+            <section class="intro">
+                <h2>Introduction to AI in Business</h2>
+                <p>Artificial Intelligence (AI) is transforming the business landscape by enhancing efficiency,
+                    improving customer experience, and enabling data-driven decision-making.</p>
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?fit=crop&w=600&h=400&q=80"
+                    alt="AI in Business" width="600" height="400">
+            </section>
+            <section class="benefits">
+                <h2>Benefits of AI in Business</h2>
+                <ul>
+                    <li>Automated Customer Support</li>
+                    <li>Enhanced Data Analytics</li>
+                    <li>Personalized Marketing</li>
+                    <li>Improved Operational Efficiency</li>
+                </ul>
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?fit=crop&w=600&h=400&q=80"
+                    alt="AI Benefits" width="600" height="400">
+            </section>
+            <section class="applications">
+                <h2>Applications of AI in Various Industries</h2>
+                <p>AI is being used in healthcare, finance, retail, manufacturing, and many other industries to drive
+                    innovation and growth.</p>
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?fit=crop&w=600&h=400&q=80"
+                    alt="AI Applications" width="600" height="400">
+            </section>
+        </section>
+        <section id="tools-section" class="content-section" style="display: none;">
+            <h2>Most Common AI Tools</h2>
+            <p>Explore the most popular AI tools used in business today, including machine learning platforms, natural
+                language processing tools, and more.</p>
+        </section>
+        <section id="news-section" class="content-section" style="display: none;">
+            <h2>AI News</h2>
+            <p>Stay updated with the latest news and developments in the world of artificial intelligence.</p>
+        </section>
+        <section id="devices-section" class="content-section" style="display: none;">
+            <h2>AI Devices</h2>
+            <p>Discover the latest AI devices that are revolutionizing various industries, from smart assistants to
+                advanced robotics.</p>
+        </section>
+    </main>
+    <footer>
+        <p class="year_">&copy;<span id="year"> </span> Alexis Machuca Guatemala</p>
+        <p class="modified">Last modification <span id="lastModif"></span></p>
+    </footer>
+</body>
+
+</html>
