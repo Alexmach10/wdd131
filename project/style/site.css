@@ -103,17 +103,20 @@ footer {
     text-align: center;
     position: relative;
 }
-.year_, .modified {
+
+.year_,
+.modified {
     text-align: center;
     margin: 5px;
     max-width: 100%;
 }
+
 /* Larger view styles */
 @media (min-width: 501px) {
     main {
         max-width: 2000px;
         margin: 0 auto;
-        padding: 40px;        
+        padding: 40px;
     }
 
     section {
@@ -131,7 +134,8 @@ footer {
         margin: 0;
     }
 
-    p, ul {
+    p,
+    ul {
         max-width: 50%;
     }
 
@@ -155,6 +159,7 @@ footer {
     .menu-button {
         display: none;
     }
+
     .content-section {
         display: flex;
         align-items: center;
@@ -174,9 +179,10 @@ footer {
     .content-section p,
     .content-section ul {
         max-width: 50%;
-        margin: 0 auto; /* Center align text */
+        margin: 0 auto;
+        /* Center align text */
     }
-    
+
 }
 
 /* Small view styles */
@@ -205,7 +211,8 @@ footer {
         font-size: 1.2em;
     }
 
-    p, ul {
+    p,
+    ul {
         font-size: 1em;
     }
 
