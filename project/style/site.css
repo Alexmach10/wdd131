@@ -120,11 +120,6 @@ footer {
         padding: 40px;
     }
 
-    section {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
 
     section:nth-child(odd) img {
         order: -1;
