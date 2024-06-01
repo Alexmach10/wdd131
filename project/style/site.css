@@ -177,18 +177,24 @@ footer {
 
     .tittle1 {
         padding-left: 20px;
+        text-align: center;
+        font-size: 30px;
         grid-column: 2/3;
         grid-row: 1/2;
     }
 
     .tittle2 {
         padding-left: 20px;
+        text-align: center;
+        font-size: 30px;
         grid-column: 2/3;
         grid-row: 2/3;
     }
 
     .tittle3 {
         padding-left: 20px;
+        text-align: center;
+        font-size: 30px;
         grid-column: 2/3;
         grid-row: 4/5;
     }
