@@ -56,15 +56,14 @@ header nav button:hover {
     background-color: #ffffff;
 }
 
-main {
-    padding: 200px;
-}
 
 section {
+    max-width: 1200px;
     padding: 50px;
 }
 
 h2 {
+    text-align: center;
     padding: 20px;
     color: rgb(0, 58, 0);
 }
@@ -115,11 +114,17 @@ footer {
 /* Larger view styles */
 @media (min-width: 501px) {
     main {
-        max-width: 2000px;
         margin: 0 auto;
         padding: 40px;
     }
 
+    section{
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
 
     section:nth-child(odd) img {
         order: -1;
