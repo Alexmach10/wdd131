@@ -44,4 +44,14 @@ document.addEventListener("DOMContentLoaded", function () {
         reviewCounter = reviewCounter ? parseInt(reviewCounter) + 1 : 1;
         localStorage.setItem("reviewCounter", reviewCounter.toString());
     });
+
+    const year = document.getElementById("year");
+    const today = new Date();
+    year.textContent = today.getFullYear();
+
+    const lastModif = document.getElementById("lastModif");
+    lastModif.textContent = document.lastModified;
+
+    year.innerHTML = ` <span class="highlight">${today.getFullYear()}</span>`;
+    lastModif.innerHTML = new Date(document.lastModified);
 });
